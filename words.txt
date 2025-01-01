@@ -1,0 +1,12 @@
+We proposed ConfMix, a novel confidence-based mixing method for adapting object detectors trained on a source
+domain to a target domain in an unsupervised manner. We
+introduced a region-level strategy for sample data augmentation by mixing the region of the target image with the most
+confident pseudo detections with the source image, and
+achieved adaptation with a consistency loss on the pseudo
+detections. We also introduced the progressive pseudo labelling scheme by gradually restricting the confidence metric in order to facilitate the smooth transition from learning
+the target representation to improving detection accuracy.
+We compared our approach with state-of-the-art methods,
+demonstrating its superior performance on two benchmarks.
+As future work, we will apply our method in other practical
+scenarios, other than autonomous driving, and improve its
+compatibility with different object detection frameworks.
